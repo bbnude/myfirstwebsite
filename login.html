@@ -1,0 +1,67 @@
+-33<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Clothing Shop Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <Style>
+        .container {
+            width: 300px;
+            margin: 0 auto;
+            padding-top: 100px;
+        }
+        
+        form {
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        
+        .form-group {
+            margin-bottom: 10px;
+        }
+        
+        label,
+        input {
+            display: block;
+            width: 100%;
+        }
+        
+        input[type="text"],
+        input[type="password"] {
+            padding: 8px;
+        }
+        
+        button[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            cursor: pointer;
+        }
+    </Style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="login.php" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter password" required>
+            </div>
+            <button type="submit"><a href="index.html">Login</a></button>
+        </form>
+    </div>
+</body>
+
+</html>
